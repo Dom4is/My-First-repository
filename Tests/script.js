@@ -1,3 +1,9 @@
 "use strict";
-let x = 5; 
-alert( x++ );
+for(let i = 0;i<10;i++){
+    console.log(i);
+}
+var a = 12;
+while (a != 3) {
+    console.log(a);
+    a--;
+}
