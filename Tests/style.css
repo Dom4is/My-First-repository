@@ -1,9 +1,15 @@
 body {
+	margin: 0;
+	padding: 0;
     text-align: center;
     color: azure;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.main-div a {
+	color:azure;
 }
 
 .dleverytaingun {
@@ -55,8 +61,14 @@ body {
 .content {
     padding: 1em 0;
 }
+#sign-img {
+	height: 200px;
+	width: 350px;
+}
 
-img {
+.main-div img {
+	height: 400px;
+	width: 500px;
     border-radius: 20px;
     border:solid lightblue;
 }
