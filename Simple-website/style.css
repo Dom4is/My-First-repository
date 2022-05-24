@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#blue-bar {
+    color: aliceblue;
+    background-color: cornflowerblue;
+    padding: 20px 100px;
+   
+}
+
+#blue-bar a {
+    color: aliceblue;
+}
+
+#info img {
+    height: 45px;
+    width: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+#info {
+    margin-top: 25px;
+}
+
+#date-time {
+    float: right;
+}
