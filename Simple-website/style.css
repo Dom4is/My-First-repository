@@ -1,24 +1,29 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
+}
+
+.fixed-container {
+    width: 960px;
+    margin: 0 auto;
 }
 
 #blue-bar {
     color: aliceblue;
     background-color: cornflowerblue;
     padding: 20px 100px;
-   
+
 }
 
 #blue-bar a {
     color: aliceblue;
 }
 
-#info img {
-    height: 45px;
-    width: 150px;
-    margin-left: 100px;
-    margin-right: 50px;
+#logo {
+    position: relative;
+    top: 40px;
+    
 }
 
 #info {
@@ -27,4 +32,35 @@ html, body {
 
 #date-time {
     float: right;
+}
+
+#date-today {
+    position: absolute;
+    top: 10px;
+    left: 800px;
+    color: gray;
+}
+
+#hours {
+    position: absolute;
+    top: 12px;
+    left: 930px;
+    color: gray;
+}
+
+#wheather {
+    position: absolute;
+    top: 4px;
+    left: 1020px;
+    color: gray;
+}
+
+#input {
+    position: absolute;
+    top: 10px;
+    left: 1200px;
+}
+
+#Menu {
+    text-align: center;
 }
