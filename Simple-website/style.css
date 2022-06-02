@@ -23,7 +23,7 @@ body {
 #logo {
     position: relative;
     top: 40px;
-    
+
 }
 
 #info {
@@ -61,6 +61,36 @@ body {
     left: 1200px;
 }
 
-#Menu {
+#menu {
     text-align: center;
+}
+
+#news {
+    margin-top: 100px;
+}
+
+#column-left {
+    background-color: blue;
+    float: left;
+    width: 250px;
+}
+
+#column-center {
+    background-color: brown;
+    float: left;
+    width: 420px;
+    margin-left: 20px;
+}
+
+#column-right img {
+    margin-bottom: 10px;
+}
+
+#column-right {
+    float: right;
+    width: 250px;
+}
+
+#special-news .fixed-container {
+    margin-top: 20px;
 }
